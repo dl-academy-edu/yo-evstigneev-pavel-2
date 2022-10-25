@@ -1,0 +1,64 @@
+/* styles for header */
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .header__link {
+    background-image: url(../static/icons/logo.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 52px;
+  }
+  .header__link:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+  }
+  .header__link:active {
+    opacity: 0.1;
+  }
+  .nav__list {
+    display: flex;
+    margin-left: 59px;
+  } 
+  .nav__list_item {
+    margin-right: 18px;
+  }
+  .nav__list_link {
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    text-transform: uppercase;
+  }
+  .nav__list_link:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+  }
+  .nav__list_link:active {
+    opacity: 0.1;
+  }
+  .contact__wrapper {
+    margin-left: auto;
+  }
+  .search__btn :hover {
+    opacity: 0.5;
+    transition: 0.2s;
+  }
+  .search__btn :active {
+    opacity: 0.1;
+  }
+  .nav__contact {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    text-transform: uppercase;
+    margin-left: 19px;
+  }
+  .nav__contact:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+  }
+  .nav__contact:active {
+    opacity: 0.1;
+  }

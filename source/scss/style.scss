@@ -1,0 +1,350 @@
+@import "_variables.base";
+@import "_mixins";
+
+/*
+  Import vendor libraries
+*/
+@import "vendor/_normalize";
+
+/*
+  Import utils classes and base styles
+*/
+@import "_utils";
+@import "_base";
+
+/*
+  Import all other blocks
+*/
+@import "_blocks/footer";
+@import "_blocks/header";
+
+/*
+  Ниже пример подключения других блоков
+
+  Каждый новый файл должен отвечать за конкретный блок в терминах БЭМ
+  (https://ru.bem.info/methodology/key-concepts/#%D0%B1%D0%BB%D0%BE%D0%BA)
+
+  Для именования селекторов давайте придерживаться стиля two dashes
+  (https://ru.bem.info/methodology/naming-convention/#%D1%81%D1%82%D0%B8%D0%BB%D1%8C-two-dashes)
+  block-name__element-name--modificator
+*/
+
+/*
+  Код ниже нужно удалить, он добавлен просто для примера
+  Не стал выносить в отдельный файл, но если бы блок coming-soon действительно был бы нужен,
+  то он должен был бы быть в файле _blocks/coming-soon.scss
+*/
+
+
+/* styles for the "banner" */
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+.banner{
+  margin-top: 128px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 44px;
+     -moz-column-gap: 44px;
+          column-gap: 45px;
+  background: #eee4db;
+}
+.slider__menu {
+  margin-top: 15px;   
+}
+.digits {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 73px;
+  margin-left: 28px;
+  color: rgba(30, 6, 6, 0.06);
+}
+.digits__ul {
+  margin-left: 31px;
+}
+.digits__li {
+  margin-bottom: -8px;
+}
+.btn__1 {
+  width: 32px;
+  height: 3px;
+  background: rgba(30, 6, 6, 0.6);
+  border: none;
+  cursor: pointer;
+}
+.btn {
+  width: 32px;
+  height: 3px;
+  background: #D6CAC2;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgba(30, 6, 6, 0.6);
+}
+.slide__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 21px;
+  max-width: 307px;
+  margin: 89px 0 89px 0;
+}
+.title {
+  margin-top: 3px;
+}
+.title_text {
+  margin-top: -35px;
+}
+.title_img {
+ position: absolute;
+  width: 630px;
+  height: 462px;
+  left: 448px;
+  top: -88px;
+}
+.title__offer {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #C29974;
+}
+
+
+/* styles for "category products" */
+.category_products {
+  margin-top: 92px;
+}
+.products__title {
+  margin-bottom: 30px;
+}
+.products__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.products__li {
+ position: relative;
+ margin-right: 15px;
+}
+.bts-text__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 33px;
+}
+.direction__btn {
+  margin-right: 6px;
+  background-image: url(../static/icons/vector_to_the_left.svg);
+  width: 36px;
+  height: 37px;
+  background-color: rgba(112, 187, 220, 0.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+}
+.direction__btn1 {
+  background-image: url(../static/icons/vector_to_the_right.svg);
+  width: 36px;
+  height: 37px;
+  background-color: rgba(112, 187, 220, 0.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+}
+.products__text {
+  margin-left: 23px;
+  max-width: 560px;
+}
+
+
+/* styles for "delivery" */
+.delivery {
+  margin-top: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+}
+.delivery__wrapper {
+  margin-top: 31px;
+  width: 540px;
+}
+.delivery__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.delivery__title {
+  margin-bottom: 6px;
+}
+.delivery__text {
+  display: inline-block;
+  background-color: #70BBDC33;
+  padding: 13px 192px 15px 61px;
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+.delivery__text1 {
+  margin-top: 12px;
+}
+.delivery__text2 {
+  margin-top: 28px;
+}
+.delivery__text3 {
+  margin-top: 40px;
+}
+.delivery__text4 {
+  margin-top: 15px;
+  margin-bottom: 33px;
+}
+.shift {
+  margin-left: 60px;
+}
+
+
+/* styles for "company" */
+.company {
+  margin-top: 90px;
+}
+.company__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+          align-items: center;
+}
+.company__item {
+  opacity: 0.8;
+}
+
+
+/* styles for "About Us" */
+.adress__map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 116px;
+}
+.about__wrapper {
+  background: #E1F0F7;
+  width: 543px;
+  padding-left: 30px;
+  padding-bottom: 27px;
+  margin-bottom: 155px;
+}
+.about__wrapper1 {
+  background: #E1F0F7;
+  width: 580px;
+  height: 210px;
+  padding-left: 30px;
+}
+.about__title {
+  margin-top: -24px;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+.about__text1 {
+  margin-top: 7px;
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+}
+.about__text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 460px;
+}
+.about__text2 {
+  margin-top: 20px;
+  width: 460px;
+}
+.map {
+  width: 483px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+
+/* styles for pop-up */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background: rgba(125, 151, 218, 0.8);
+  z-index: 2;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.popup__wrap {
+  position: relative;
+}
+.popup__cross {
+  position: absolute;
+  left: 688px;
+  background: none;
+  border: none;
+  background-image: url(../static/icons/closing_cross.svg);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.popup__cross:hover {
+ opacity: 0.7;
+ transition: 0.2s;
+}
+.popup__cross:active {
+  opacity: 0.4;
+}
+.popup-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+.popup__title {
+  display: none;
+}
