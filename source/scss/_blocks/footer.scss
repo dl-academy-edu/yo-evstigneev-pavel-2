@@ -1,0 +1,92 @@
+/* styles for footer */
+.footer {
+  height: 555px;
+  background: #434343;
+}
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.footer__section {
+ margin-top: 101px;
+}
+.footer__title {
+  color: #AAAAAA;
+  margin-bottom: 27px;
+  border-bottom: 1px solid #666666;
+  padding-bottom: 23px;
+}
+.footer__list {
+  width: 380px;
+}
+.footer__list_item {
+  margin-top: 15px;
+}
+.footer__list-link {
+  color: #FFFFFF;
+}
+.footer__list-link:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+.footer__list-link:active {
+  opacity: 0.2;
+}
+.footer__form-wrap {
+display: flex;
+}
+.footer__form_input {
+  border: 0;
+  width: 303px;
+  height: 37px;
+  padding-left: 15px;
+  background-color: #666666;
+  color: #FFFDFD;
+}
+.footer__form_input::-webkit-input-placeholder {
+  color: #EBEBEB;
+}
+.footer__form_input:hover {
+  outline: none;
+  border: 1px solid #FFFDFD;
+}
+.footer__form_input:focus {
+  outline: none;
+  border: 1px solid #FFFDFD;
+}
+.connect__list {
+  display: flex;
+  margin-top: 26px;
+}
+.connect__list_item {
+  margin-right: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background: #666666;
+  border-radius: 15px;
+}
+.connect__list-img:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+.connect__list-img:active {
+  opacity: 0.2;
+}
+.footer__bottom__text {
+  color: #FFFFFF;
+}
+.footer__bottom__text, .rating__wrap {
+  max-width: 400px;
+  width: 100%;
+}
+.footer__bottom__link {
+  color: #A2A2A2;
+}
+.footer__bottom__link:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+  transition: 0.2s;
+}
