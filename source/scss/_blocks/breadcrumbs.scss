@@ -1,0 +1,25 @@
+// bread crumb styles
+.breadcrumbs {
+    margin-top: 62px;
+    margin-bottom: 50px;
+  }
+  .title_crubs {
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .crub_ul {
+    display: flex;
+    margin-top: 15px;
+  }
+  .link_crub {
+    color: #1E0606;
+  }
+  .crub_li:not(:last-child)::after {
+    content: url(../../img/icons/vector_crumb.svg);
+    margin: 10px;
+  }
+  .link_crub1 {
+    margin-left: 10px;
+    color: #1E0606;
+    opacity: 0.5;
+  }

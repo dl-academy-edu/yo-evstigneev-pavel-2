@@ -1,53 +1,52 @@
-/* styles for header */
+// styles for header
 .header {
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .header__link {
-    background-image: url(../static/icons/logo.svg);
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  &__logo {
+    background-image: url(../../img/icons/logo.svg);
     background-repeat: no-repeat;
     width: 100px;
     height: 52px;
   }
-  .header__link:hover {
+  &__logo:hover {
     opacity: 0.5;
     transition: 0.2s;
   }
-  .header__link:active {
+  &__logo:active {
     opacity: 0.1;
   }
-  .nav__list {
+  &__nav-list {
     display: flex;
     margin-left: 59px;
-  } 
-  .nav__list_item {
+  }
+  &__nav-item {
     margin-right: 18px;
   }
-  .nav__list_link {
+  &__nav-link {
     font-size: 14px;
     line-height: 19px;
     color: #1E0606;
     text-transform: uppercase;
-  }
-  .nav__list_link:hover {
+  } 
+  &__nav-link:hover {
     opacity: 0.5;
     transition: 0.2s;
   }
-  .nav__list_link:active {
+  &__nav-link:active {
     opacity: 0.1;
   }
-  .contact__wrapper {
+  &__contact-wrapper {
     margin-left: auto;
   }
-  .search__btn :hover {
+  &__search-btn:hover {
     opacity: 0.5;
     transition: 0.2s;
   }
-  .search__btn :active {
+  &__search-btn:active {
     opacity: 0.1;
   }
-  .nav__contact {
+  &__nav-contact {
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
@@ -55,10 +54,11 @@
     text-transform: uppercase;
     margin-left: 19px;
   }
-  .nav__contact:hover {
+  &__nav-contact:hover {
     opacity: 0.5;
     transition: 0.2s;
   }
-  .nav__contact:active {
+  &__nav-contact:active {
     opacity: 0.1;
   }
+}

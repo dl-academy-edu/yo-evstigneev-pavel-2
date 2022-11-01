@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;0,700;1,200;1,600;1,700&display=swap" rel="stylesheet">
+
+    <title>Catalog</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+
+
+<body>
+
+    
+    <div class="container">
+        @@include('blocks/header.html')
+    </div>
+
+
+    <main>
+
+        
+        <div class="container">
+            @@include('blocks/breadcrumbs.html', {
+                "title": "category products",
+                "href": "catalog.html",
+                "text": "Catalog"
+            })
+        </div>
+        
+
+        <div class="container">
+            <section class="catalog">
+                <h2 class="hidden__title">Catalog</h2>
+
+                <ul class="catalog__ul">
+                    <li class="catalog__li">
+                        <img src="./img/apparel_kids.jpg" class="catalog__img" width="280" height="270" alt="apparel_kids">
+                        <a href="#"><p class="catalog__item montserrat1">apparel kids</p></a>
+                    </li>
+    
+                    <li class="catalog__li">
+                        <img src="./img/holiday_shop.jpg" class="catalog__img" width="280" height="270" alt="holiday_shop">
+                        <a href="#"><p class="catalog__item montserrat1">holiday shop</p></a>
+                    </li>
+    
+                    <li class="catalog__li">
+                        <img src="./img/toys.jpg" class="catalog__img" width="280" height="270" alt="toys">
+                        <a href="./toys.html"><p class="catalog__item montserrat1">toys</p></a>
+                    </li>
+    
+                    <li class="catalog__li">
+                        <img src="./img/accessories.jpg" class="catalog__img" width="280" height="270" alt="accessories">
+                        <a href="#"><p class="catalog__item montserrat1">accessories</p></a>
+                    </li>
+    
+                    <li class="catalog__li">
+                        <img src="./img/sale.jpg" class="catalog__img" width="280" height="270" alt="sale">
+                        <a href="#"><p class="catalog__item montserrat1">sale</p></a>
+                    </li>
+    
+                    <li class="catalog__li">
+                        <img src="./img/apparel_adults.jpg" class="catalog__img" width="280" height="270" alt="apparel_adults">
+                        <a href="#"><p class="catalog__item montserrat1">apparel adults</p></a>
+                    </li>
+                </ul>
+
+            </section>
+            
+            <section class="Description">
+                <h2 class="Description_title montserrat1">product description</h2>
+                <p class="Description_text open-sans">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
+                <p class="Description_text open-sans">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
+                <p class="Description_text open-sans">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+            </section>
+
+        </div>   
+    </main>
+
+
+    @@include('blocks/footer.html')
+
+
+</body>
+</html>

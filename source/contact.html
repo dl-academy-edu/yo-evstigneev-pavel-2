@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;0,700;1,200;1,600;1,700&display=swap" rel="stylesheet">
+
+    <title>Contact us</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+
+
+<body>
+
+
+    <div class="container">
+        @@include('blocks/header.html')
+    </div>
+
+
+    <main>
+
+        
+        <div class="container">
+            @@include('blocks/breadcrumbs.html', {
+                "title": "contact us",
+                "href": "contact.html",
+                "text": "Contact Us"
+            })
+        </div>
+
+
+        <div class="container">
+            <section class="section__contact_us">
+
+                @@include('blocks/form_contact.html')
+
+                <div class="contact__wrap">
+                    <p class="contact__text open-sans">Our support team are on-hand to assist with any issues you are experiencing.</p>
+                    <p class="contact__text open-sans">Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+                    <h2 class="contact__title">An expert is waiting to help you!</h2>
+                </div>
+
+            </section>  
+        </div>
+            
+    </main>
+
+
+    @@include('blocks/footer.html')
+
+    
+</body>
+</html>
