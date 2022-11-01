@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width">
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;0,700;1,200;1,600;1,700&display=swap" rel="stylesheet">
 
     <title>Main page</title>
     <meta name="description" content="">
@@ -24,8 +27,12 @@
 
 
 <body>
+
     
-  @@include('blocks/header.html')
+    <div class="container">
+        @@include('blocks/header.html')
+    </div>
+  
 
   <main>
     <div class="container">
@@ -58,7 +65,7 @@
                 <button class="botton__link open_sans2 btn-js" type="button">explore now</button>
             </div>
 
-            <img class="title_img" src="./static/image/monster_in_a_wheelbarrow_on_a_banner.png" width="630" height="462" alt="banner">
+            <img class="title_img" src="./img/monster_in_a wheelbarrow_on_a_banner.png" width="630" height="462" alt="banner">
 
         </section>
         <p class="title__offer">free (continental) usa shipping on all orders of $100 usd or more!</p>  
@@ -72,22 +79,22 @@
             <div class="products__wrapper">
                 <ul class="products__ul">
                     <li class="products__li">
-                        <img src="../static/image/apparel_kids.jpg" class="catalog__img" width="280" height="270" alt="apparel_kids">
+                        <img src="./img/apparel_kids.jpg" class="catalog__img" width="280" height="270" alt="apparel_kids">
                         <a href="#"> <p class="catalog__item montserrat1">apparel kids</p></a>
                     </li>
     
                     <li class="products__li">
-                        <img src="../static/image/holiday_shop.jpg" class="catalog__img" width="280" height="270" alt="holiday_shop">
+                        <img src="./img/holiday_shop.jpg" class="catalog__img" width="280" height="270" alt="holiday_shop">
                         <a href="#"> <p class="catalog__item montserrat1">holiday shop</p></a>
                     </li>
     
                     <li class="products__li">
-                        <img src="../static/image/toys.jpg" class="catalog__img" width="280" height="270" alt="toys">
-                        <a href="./pages/toys.html"> <p class="catalog__item montserrat1">toys</p></a>
+                        <img src="./img/toys.jpg" class="catalog__img" width="280" height="270" alt="toys">
+                        <a href="./toys.html"> <p class="catalog__item montserrat1">toys</p></a>
                     </li>
     
                     <li class="products__li">
-                        <img src="../static/image/accessories.jpg" class="catalog__img" width="280" height="270" alt="accessories">
+                        <img src="./img/accessories.jpg" class="catalog__img" width="280" height="270" alt="accessories">
                         <a href="#"> <p class="catalog__item montserrat1">accessories</p></a>
                     </li>
                 </ul>
@@ -96,7 +103,7 @@
             <div class="bts-text__wrap">
                 <button class="direction__btn"></button>
                 <button class="direction__btn1"></button>
-                <p class="products__text open_sans">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
+                <p class="products__text open-sans">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
             </div>
             
         </section>
@@ -105,7 +112,7 @@
 
     <div class="container">
         <section class="delivery">
-            <img src="./static/image/delivery.jpg" width="480" height="559" alt="delivery">
+            <img src="./img/delivery.jpg" width="480" height="559" alt="delivery" class="delivery-img">
 
                 <div class="delivery__wrapper">
                     <ul class="delivery__ul">
@@ -128,11 +135,11 @@
 
                     <ul class="delivery__ul">
                         <li>
-                            <p class="delivery__text3 shift open_sans">Some days i feel like i've been working on dlk my entire life andthere are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                            <p class="delivery__text3 shift open-sans">Some days i feel like i've been working on dlk my entire life andthere are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                         </li>
 
                         <li>
-                            <p class="delivery__text4 shift open_sans">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+                            <p class="delivery__text4 shift open-sans">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
                         </li>
                         
                         <li>
@@ -151,19 +158,19 @@
 
             <ul class="company__list">
                 <li class="company__item">
-                    <img src="./static/image/mail_ru.png" alt="mail_ru_company" width="193" height="60" class="company__img">
+                    <img src="./img/mail_ru.png" alt="mail_ru_company" width="193" height="60" class="company__img">
                 </li>
 
                 <li class="company__item">
-                    <img src="./static/image/apple.png" alt="apple_company" width="179" height="61" class="company__img">
+                    <img src="./img/apple.png" alt="apple_company" width="179" height="61" class="company__img">
                 </li>
 
                 <li class="company__item">
-                    <img src="./static/image/eltex.png" alt="eltex_company" width="216" height="46" class="company__img">
+                    <img src="./img/eltex.png" alt="eltex_company" width="216" height="46" class="company__img">
                 </li>
             
                 <li class="company__item">
-                    <img src="./static/image/owox.png" alt="owox_company" width="211" height="40" class="company__img">
+                    <img src="./img/eltex.png" alt="owox_company" width="211" height="40" class="company__img">
                 </li>
             </ul>
 
@@ -177,13 +184,13 @@
             <div class="about__wrapper">
                 <h2 class="about__title montserrat1">Design Life Kids</h2>
                 <p class="about__text1">About Us</p>
-                <p class="about__text open_sans">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <p class="about__text open-sans">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                 <button class="botton__link open_sans2" type="button">buy now</button>
             </div>
     
             <div class="about__wrapper1">
                 <h2 class="about__title montserrat1">Contacts</h2>
-                <p class="about__text2 open_sans">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <p class="about__text2 open-sans">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.6851021868506!2d49.28748761618394!3d53.50982038001365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4168797f9a8510e9%3A0x5af0ee3dab85a41c!2z0L_RgC4g0KHRgtC10L_QsNC90LAg0KDQsNC30LjQvdCwLCA0NCwg0KLQvtC70YzRj9GC0YLQuCwg0KHQsNC80LDRgNGB0LrQsNGPINC-0LHQuy4sIDQ0NTAyNw!5e0!3m2!1sru!2sru!4v1662361493632!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
             </div>
 
@@ -191,46 +198,17 @@
     </div>
   </main>
 
-  @@include('blocks/footer.html')
+  
+    @@include('blocks/footer.html')
+
 
   <section class="popup">
+        <div class="popup__wrap">
+            <button class="popup__cross"></button>
+            <h2 class="hidden__title">Popup</h2>
 
-    <div class="popup__wrap">
-        <button class="popup__cross"></button>
-        <h2 class="popup__title">Popup</h2>
-
-        <form action="#" class="form__contact">
-            <div class="from__wrapper">
-                <div class="from__name">
-                    <label for="input-name" class="roboto">Name</label>
-                    <input type="text" id="input-name" placeholder="Ivan Ivanov" class="input_name">
-                </div>
-    
-                <div class="field__wrap">
-                    <div class="from__phone">
-                        <label for="input-phone" class="roboto">Phone</label>
-                        <input type="number" id="input-phone" class="input_phone">
-                    </div>
-    
-                    <div class="from__email">
-                        <label for="input-email" class="roboto">Email</label>
-                        <input type="email" id="input-email" class="input_email">
-                    </div>
-                </div>
-    
-                <div class="from__message">
-                    <label for="textarea" class="roboto">Message</label>
-                    <textarea id="textarea" class="input_message" maxlength="400"></textarea>
-                </div>
-    
-                <div class="from__processing">
-                    <input type="checkbox" id="input-processing" class="custom__checkbox">
-                    <label for="input-processing" class="checkbox__label roboto">By clicking on the button, you consent to the processing of your personal data</label>
-                </div>
-                <button class="botton__link open_sans2" type="submit">Submit</button>
-            </div>
-        </form>
-    </div>   
+           open-sans         
+        </div>
   </section>
 
   <script src="js/index.js"></script>

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,600;0,700;1,200;1,600;1,700&display=swap" rel="stylesheet">
+
+    <title>Toys</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+
+
+<body>
+
+    
+    <div class="container">
+        @@include('blocks/header.html')
+    </div>
+
+
+    <main>
+        
+        <div class="container">
+            <section class="bread_crumb">
+                <h1 class="title_crubs montserrat">toy for kids</h1>
+                <div class="crub_wrap">
+                    <nav class="crub_nav">
+                        <ul class="crub_ul">
+                            <li class="crub_li">
+                                <a href="./index.html" class="link_crub crimson_text">Home</a>
+                            </li>
+                            <li class="crub_li">
+                                <a href="./catalog.html" class="link_crub1 crimson_text">Catalog</a>
+                            </li>
+                            <li class="crub_li">
+                                <a href="./toys.html" class="link_crub1 crimson_text">Toys</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="preferences__background">
+            <h2 class="hidden__title">preferences</h2>
+            <div class="container">
+
+                <div class="preferences__wrap">
+
+                   <fieldset class="preferences__fieldset">
+                        <div class="range__wrap">
+
+                            <label for="range" class="preferences__label open_sans2">Cost</label>
+                            <input type="range" id="range" class="range__input">
+
+                            <div class="range__digits__wrap">
+                                <span class="range__digits open-sans">0</span>
+                                <span class="range__digits open-sans">500</span>
+                            </div>
+
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="preferences__fieldset">
+                        <legend  class="preferences__appellation open_sans2">Color</legend>
+
+                        <div class="preferences__input__wrap">
+                          <input type="checkbox" id="color-black" class="custom__checkbox" checked>
+                          <label for="color-black" class="checkbox__label open-sans">Black</label>
+                        </div>
+                    
+                        <div class="preferences__input__wrap">
+                          <input type="checkbox" id="color-blue" class="custom__checkbox">
+                          <label for="color-blue" class="checkbox__label open-sans">Blue</label>
+                        </div>
+
+                        <div class="preferences__input__wrap">
+                            <input type="checkbox" id="color-green" class="custom__checkbox">
+                            <label for="color-green" class="checkbox__label open-sans">Green</label>
+                        </div>
+
+                        <div class="preferences__input__wrap">
+                            <input type="checkbox" id="color-white" class="custom__checkbox">
+                            <label for="color-white" class="checkbox__label open-sans">White</label>
+                        </div>
+                          
+                    </fieldset>
+
+                    <fieldset class="preferences__fieldset">
+                        <legend class="preferences__appellation open_sans2">Delivery</legend>
+
+                        <div class="preferences__input__wrap">
+                            <input type="radio" id="delivery-free" class="input__radio" name="delivery">
+                            <label for="delivery-free" class="radio__label open-sans">Free shipping</label>
+                        </div>
+                      
+                        <div class="preferences__input__wrap">
+                            <input type="radio" id="delivery-fast" class="input__radio" name="delivery" checked>
+                            <label for="delivery-fast" class="radio__label open-sans">Fast shipping</label>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="preferences__fieldset">
+                        <legend class="preferences__appellation open_sans2">Amount</legend>
+
+                        <div class="preferences__amount__wrap">
+                            <input type="radio" id="amount-small" class="radio__amount" name="amount" checked>
+                            <label for="amount-small" class="label__amount lengthening open-sans">0-5</label>
+                        </div>
+                      
+                        <div class="preferences__amount__wrap">
+                            <input type="radio" id="amount-average" class="radio__amount" name="amount">
+                            <label for="amount-average" class="label__amount open-sans">10-20</label>
+                        </div>
+
+                        <div class="preferences__amount__wrap">
+                            <input type="radio" id="amount-large" class="radio__amount" name="amount">
+                            <label for="amount-large" class="label__amount open-sans">20-50</label>
+                        </div>
+
+                    </fieldset>
+
+                    <div class="preferences__btn__wrap">
+                        <button class="botton__link open_sans2" type="submit">apply</button>
+                    </div>
+
+                </div>
+            
+            </div>
+        </section>
+
+
+        <div class="container">
+            <section class="toy__category">
+                <h2 class="hidden__title">Toy Categories</h2>
+
+                <ul class="t-c__ul">
+                    <li class="t-c__li">
+                        <a href="#" class="t-c__link">
+                            <img src="./img/shark_bag.png" width="380" height="385" alt="sharky_bean_bag_chair_cover">
+                        </a>
+                        <p class="t-c__text">sharky bean bag chair cover</p>
+                        <p class="t-c__text1 open_sans2">$60.00 usd</p>
+                    </li>
+
+                    <li class="t-c__li">
+                        <a href="#" class="t-c__link">
+                            <img src="./img/deco_frames.png" width="380" height="385" alt="brass_deco_frames">
+                        </a>
+                        <p class="t-c__text">brass deco frames</p>
+                        <p class="t-c__text1 open_sans2">$66.00 usd</p>
+                    </li>
+
+                    <li class="t-c__li">
+                        <a href="#" class="t-c__link">
+                            <img src="./img/apron.png" width="380" height="385" alt="cibo_full_apron">
+                        </a>
+                        <p class="t-c__text">cibo full apron</p>
+                        <p class="t-c__text1 open_sans2">$60.00 usd</p>
+                    </li>
+
+                    <li class="t-c__li">
+                        <a href="#" class="t-c__link">
+                            <img src="./img/gumball_machine.png" width="380" height="385" alt="gatchag_gatcha_gumball_machine">
+                        </a>
+                        <p class="t-c__text">gatchag gatcha gumball machine</p>
+                        <p class="t-c__text1 open_sans2">$56.00 usd</p>
+                    </li>
+
+                    <li class="t-c__li">
+                        <a href="#" class="t-c__link">
+                            <img src="./img/christmas_candle.png" width="380" height="385" alt="chrismas_advent_scented_candle">
+                        </a>
+                        <p class="t-c__text">chrismas advent scented candle</p>
+                        <p class="t-c__text1 open_sans2">$29.00 usd</p>
+                    </li>
+
+                    <li class="t-c__li">
+                        <a href="#" class="t-c__link">
+                            <img src="./img/rotating_lamp.png" width="380" height="385" alt="tangle_sprinning_tea_light">
+                        </a>
+                        <p class="t-c__text">tangle sprinning tea light</p>
+                        <p class="t-c__text1 open_sans2">$56.00 usd</p>
+                    </li>
+                </ul>
+                
+            </section>
+        </div>
+
+
+        <div class="container">
+            @@include('blocks/pagination.html')
+        </div> 
+
+
+    </main>
+
+
+    @@include('blocks/footer.html')
+
+
+</body>
+</html>
